@@ -4,7 +4,7 @@
 
 ## Contract Architecture
 
-The architecture   of the contracts is based on [EIP-2535 Diamond MultiFacet Proxy](https://eips.ethereum.org/EIPS/eip-2535) with some changes mainly to be compatible with regular block explorers like Etherscan. Main goals:
+The architecture   of the   contracts is based on [EIP-2535 Diamond MultiFacet Proxy](https://eips.ethereum.org/EIPS/eip-2535) with some changes mainly to be compatible with regular block explorers like Etherscan. Main goals:
 
 - **Modularity** - As the system evolves, we need to be able to move fast incorporating or changing functionalities without facing limitations like the contract size or disturbing existing architecture.
 - **Upgradeability** - Allowing the DAO to evolve the system or solve issues. The process can be deactivated if such a decision is made.
